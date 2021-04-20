@@ -10,3 +10,5 @@ Identifying the presence or absence of bird species in an area is one of the ing
 Using data from an ongoing kaggle competition whose goal is to identify 24 birds and frog species using audio files, we cleaned and processed data using amazon web service architecture and dask library to handle large amount of data. From the audio files, we generated a mel spectrogram image of the a specific animal specie in the audio recording which we then used as input to our deep learning model.
 
 We achieved an 85% accuracy using resnet-50 to classify and identify the specie of a specific mel-spectrogram. The result was achieved by averaging five iterations of training using a stratified 5 fold train-test split. The resulting model was then used to infer specific specie on a raw audio file. The inference methodology resulted to a high of 52.2% score in the kaggle leaderboards. ALthough the inference methodology resulted in a low score, many improvements could be done to increase its performance.
+
+**Important Note**: Main .Pickle file is not loaded due to file size. Please send me an email at matmat.romero@gmail.com to request it.
