@@ -11,4 +11,4 @@ Using data from an ongoing kaggle competition whose goal is to identify 24 birds
 
 We achieved an 85% accuracy using resnet-50 to classify and identify the specie of a specific mel-spectrogram. The result was achieved by averaging five iterations of training using a stratified 5 fold train-test split. The resulting model was then used to infer specific specie on a raw audio file. The inference methodology resulted to a high of 52.2% score in the kaggle leaderboards. ALthough the inference methodology resulted in a low score, many improvements could be done to increase its performance.
 
-**Important Note**: Main .Pickle file is not loaded due to file size. Please send me an email at matmat.romero@gmail.com to request it.
+**Important Note**: Main .Pickle file is excluded from this repository due to file size. Please send me an email at matmat.romero@gmail.com to request for it.
